@@ -1,0 +1,41 @@
+.Light-blue {
+    background-color: #72B1E1; /* Achtergrondkleur */
+    color: #ffffff; /* Tekstkleur (wit voor contrast) */
+    border: 2px solid #72B1E1; /* Randkleur die overeenkomt met de achtergrondkleur */
+    padding: 20px; /* Ruimte binnenin het element */
+    border-radius: 10px; /* Afgeronde hoeken */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor een subtiel 3D-effect */
+    text-align: center; /* Centraal uitlijnen van tekst */
+    font-family: Arial, sans-serif; /* Lettertype */
+    font-size: 16px; /* Lettergrootte */
+}
+
+.Letter-type {
+    background-color: #72B1E1;
+    color: #ffffff;
+    border: 2px solid #72B1E1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif; /* Hier voeg je Arial toe */
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Arial instellen als het primaire lettertype */
+    background-color: #ffffff; /* Witte achtergrond */
+    color: #0000; /* Zwarte tekstkleur */
+    margin: 20px;
+}
+
+h1 {
+    
+    color: #72B1E1; /* Lichtblauwe kleur voor de koptekst */
+    font-size: 24px; /* Grotere tekstgrootte voor de koptekst */
+}
+
+p {
+    color: #000000;
+    font-size: 16px; /* Normale tekstgrootte voor paragrafen */
+}

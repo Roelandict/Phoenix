@@ -7,10 +7,13 @@ import (
 func main() {
 	e := echo.New()
 
-	// Serve the index.html file
+	// Serve de index.html file
 	e.GET("/", func(c echo.Context) error {
-		return c.File("index.html")
+		return c.File("website/index.html")
 	})
 
-	e.Logger.Fatal(e.Start(":1323"))
+	// Serve statische bestanden (zoals CSS, JS, afbeeldingen) in de /website map
+	e.Static("/css", "website/css")
+
+	e.Logger.Fatal(e.Start(":80"))
 }
