@@ -1,3 +1,4 @@
+
 .Alpha-red {
     background-color: #e42312; /* Achtergrondkleur */
     color: #ffffff; /* Tekstkleur (wit voor contrast) */
@@ -30,7 +31,7 @@
 
 
 body {
-    font-family: Arial, sans-serif; /* Arial instellen als het primaire lettertype */
+    font-family: Geologica-Regular, Arial, sans-serif; /* Arial instellen als het primaire lettertype */
     background-color: #ffffff; /* Witte achtergrond */
     color: #000000; 
     margin: 20px;
@@ -45,7 +46,12 @@ h2 {
     color: #e42312; 
     font-size: 20px; 
 }
+h3 {
+    color: #e42312; 
+    font-size: 16px; 
+
+}
 p {
     color: #000000;
-    font-size: 16px; /* Normale tekstgrootte voor paragrafen */
+    font-size: 14px; /* Normale tekstgrootte voor paragrafen */
 }
