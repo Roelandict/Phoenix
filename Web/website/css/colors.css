@@ -25,7 +25,7 @@
 body {
     font-family: Arial, sans-serif; /* Arial instellen als het primaire lettertype */
     background-color: #ffffff; /* Witte achtergrond */
-    color: #0000; /* Zwarte tekstkleur */
+    color: #000000; 
     margin: 20px;
 }
 
@@ -34,7 +34,10 @@ h1 {
     color: #72B1E1; /* Lichtblauwe kleur voor de koptekst */
     font-size: 24px; /* Grotere tekstgrootte voor de koptekst */
 }
-
+h2 {
+    color: #72B1E1; 
+    font-size: 20px; 
+}
 p {
     color: #000000;
     font-size: 16px; /* Normale tekstgrootte voor paragrafen */
