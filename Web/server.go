@@ -1,18 +1,24 @@
 package main
 
 import (
+	"net/http"
+
 	"github.com/labstack/echo/v4"
 )
 
 func main() {
 	e := echo.New()
 
-	// Serve de index.html file
-	e.GET("/", func(c echo.Context) error {
+	// Homepage
+	e.GET("/homepage", func(c echo.Context) error {
 		return c.File("website/index.html")
 	})
-
-	// Serve statische bestanden (zoals CSS, JS, afbeeldingen) in de /website map
+	e.GET("/", func(c echo.Context) error {
+		return c.Redirect(http.StatusMovedPermanently, "/homepage")
+	})
+	Redirect(e)
+	//
+	// Serve statische bestanden
 	e.Static("/css", "website/css")
 
 	e.Logger.Fatal(e.Start(":80"))
