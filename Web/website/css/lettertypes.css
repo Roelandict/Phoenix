@@ -1,0 +1,49 @@
+.Arial-standaard{
+    background-color: #72B1E1;
+    color: #000000;
+    border: 2px solid #72B1E1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+}
+
+.Arial-Standaard-Bold{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #72B1E1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Arial.Hoofdtext{
+    background-color: #72B1E1;
+    color: #ffffff;
+    border: 2px solid #72B1E1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    font-size: 24px;
+}
+
+.Arial.Hoofdtext{
+    background-color: #72B1E1;
+    color: #ffffff;
+    border: 2px solid #72B1E1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    font-size: 24px;
+    font-weight: bold;
+}
