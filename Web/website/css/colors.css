@@ -1,7 +1,8 @@
-.Light-blue {
-    background-color: #72B1E1; /* Achtergrondkleur */
+
+.Alpha-red {
+    background-color: #e42312; /* Achtergrondkleur */
     color: #ffffff; /* Tekstkleur (wit voor contrast) */
-    border: 2px solid #72B1E1; /* Randkleur die overeenkomt met de achtergrondkleur */
+    border: 2px solid #e42312; /* Randkleur die overeenkomt met de achtergrondkleur */
     padding: 20px; /* Ruimte binnenin het element */
     border-radius: 10px; /* Afgeronde hoeken */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor een subtiel 3D-effect */
@@ -11,9 +12,9 @@
 }
 
 .Letter-type {
-    background-color: #72B1E1;
+    background-color: #e42312;
     color: #ffffff;
-    border: 2px solid #72B1E1;
+    border: 2px solid #e42312;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -22,20 +23,35 @@
     font-size: 16px;
 }
 
+.normal-black {
+    background-color: #000000; /* Achtergrondkleur */
+    color: #ffffff; /* Tekstkleur (wit voor contrast) */
+    font-family: Arial, sans-serif;
+}
+
+
 body {
-    font-family: Arial, sans-serif; /* Arial instellen als het primaire lettertype */
+    font-family: Geologica-Regular, Arial, sans-serif; /* Arial instellen als het primaire lettertype */
     background-color: #ffffff; /* Witte achtergrond */
-    color: #0000; /* Zwarte tekstkleur */
+    color: #000000; 
     margin: 20px;
 }
 
 h1 {
     
-    color: #72B1E1; /* Lichtblauwe kleur voor de koptekst */
+    color: #e42312; /* Lichtblauwe kleur voor de koptekst */
     font-size: 24px; /* Grotere tekstgrootte voor de koptekst */
 }
+h2 {
+    color: #e42312; 
+    font-size: 20px; 
+}
+h3 {
+    color: #e42312; 
+    font-size: 16px; 
 
+}
 p {
     color: #000000;
-    font-size: 16px; /* Normale tekstgrootte voor paragrafen */
+    font-size: 14px; /* Normale tekstgrootte voor paragrafen */
 }
